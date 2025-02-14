@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fill up the form</h2>
+            <form>
+                <label for="name"> Your Name:
+                    <input type="text" id="name" placeholder="Enter your name">
+                </label>
+                <label for="email"> Your Email:
+                    <input type="email" id="email" placeholder="Enter your email">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                </label>
+                <fieldset>
+                    <legend>Pick your Course</legend>
+                    <label for="html">
+                        <input type="radio" id="html" name="html">HTML
+                    </label>
+                    <label for="css">
+                        <input type="radio" id="css" name="html">CSS
+                    </label>
+                    <label for="js">
+                        <input type="radio" id="js" name="html">JavaScript
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick Your Tools</legend>
+                    <label for="vscode">
+                        <input type="checkbox" id="vscode" name="tool">VS Code
+                    </label>
+                    <label for="sublime">
+                        <input type="checkbox" id="sublime" name="tool">Sublime Text
+                    </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Instruction</legend>
+                        <textarea name="instruction" id="instruction" cols="90" rows="10">                           
+                        </textarea>      
+                    </fieldset>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

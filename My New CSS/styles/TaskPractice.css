@@ -1,0 +1,26 @@
+.external{
+    color: yellow;
+    font-size: 20px;
+}
+div{
+    border: 2px solid tomato;
+    padding: 0px;
+    font-display: justify;
+    margin-bottom: 10px;
+    border-radius: 5px 40px;
+    background-color: lightblue;
+    box-shadow : 10px 10px 10px rgb(192, 77, 77);
+}
+
+*{
+    font-family: 'Arial';
+}
+header{
+    height: 200px;
+    background-image: url('../Images/submarine.jpg');
+    background-size: 200px;
+}
+.firstDiv{
+    background-color: lightpink;
+}
+ 

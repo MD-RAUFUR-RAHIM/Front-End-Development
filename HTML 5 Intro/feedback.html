@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Back</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feed Back Form</h1>
+    <form>
+        <label for="name">
+            Name: <input type="text" name="name" id="name">
+        </label>
+        <label for="email">
+            Email: <input type="email" name="email" id="email">
+        </label>
+        <label for="phone">
+            Phone: <input type="tel" name="phone" id="phone">
+        </label>
+        <fieldset>
+            <legend>Share Your Stories</legend>
+            <label for="story">
+                <textarea name="story" id="story" cols="90" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
