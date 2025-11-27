@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 2</title>
+    <style>
+        .container-A-B {
+            display: flex;
+            gap: 5px;         
+        }
+        .container-C-D{
+            display: flex;
+            gap: 5px;
+        }
+        .A, .B, .C, .D {
+            display: flex;
+            place-items: center;
+            border: 2px solid black;
+            margin: 0;
+            font-size: 3rem;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .A {
+            width: 50%;
+            background-color: lightblue;
+        }
+        .B {
+            width: 50%;
+            background-color: lightgreen;
+        }
+        .C{
+            width: 30%;
+            background-color: lightcoral;
+        }
+        .D{
+            width: 70%;
+            background-color: lightgoldenrodyellow;
+        }
+        .footer {
+            border: 2px solid black;
+            padding-top: 10px;
+            margin-top: 20px;
+            background-color: lightblue;
+        }
+        
+    @media screen and (max-width: 576px) {
+    .container-A-B, .container-C-D {
+        flex-direction: column;
+    }
+
+    .A, .B, .C, .D {
+        width: 100%; /* full width when stacked */
+    }
+}
+
+   
+
+    </style>
+</head>
+<body>
+    <div class="container-A-B">
+        <h3 class="A">A</h3>
+        <h3 class="B">B</h3>
+    </div>
+    <div class="container-C-D">
+        <h3 class="C">A</h3>
+        <h3 class="D">B</h3>
+    </div>
+    <footer class="footer">
+        <h3>The Footer</h3>
+    </footer>
+</body>
+</html>
